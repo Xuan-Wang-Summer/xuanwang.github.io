@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal | Xuan Wang</title>
+    <link>https://xuanwang.github.io/tag/personal.html</link>
+      <atom:link href="https://xuanwang.github.io/tag/personal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png</url>
+      <title>Personal</title>
+      <link>https://xuanwang.github.io/tag/personal.html</link>
+    </image>
+    
+    <item>
+      <title>Prime Minister&#39;s Research Fellowship Received</title>
+      <link>https://xuanwang.github.io/news/pmrf.html</link>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/news/pmrf.html</guid>
+      <description>&lt;p&gt;The Prime Minister&amp;rsquo;s Research Fellows (PMRF) Scheme has been designed for improving the quality of research in various higher educational institutions in the country. The institutes which can offer PMRF include all the IITs, all the IISERs, Indian Institute of Science, Bengaluru and some of the top Central Universities/NITs that offer science and/or technology degrees.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The candidates are selected through a rigorous selection process and their performance are reviewed suitably through a national convention.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

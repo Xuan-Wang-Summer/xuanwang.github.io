@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Xuan Wang</title>
+    <link>https://xuanwang.github.io/tag/teaching.html</link>
+      <atom:link href="https://xuanwang.github.io/tag/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png</url>
+      <title>Teaching</title>
+      <link>https://xuanwang.github.io/tag/teaching.html</link>
+    </image>
+    
+    <item>
+      <title>Offering Introduction to Computing with Python</title>
+      <link>https://xuanwang.github.io/news/pythoncourse.html</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/news/pythoncourse.html</guid>
+      <description>&lt;p&gt;Offering &lt;a href=&#34;https://docs.google.com/document/d/1lmD5bJ2ovVwlxaeId52HBFg5Tfe6iPEW1JTyp1k2R54/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to Computing with Python&lt;/a&gt; in comming semester. The course will provide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intermediate level knowledge of python programming language&lt;/li&gt;
+&lt;li&gt;hands-on problem solving experience (case-studies) with various open source libraries such as numpy, pandas, matplotlib etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Prerequisites: Basic concepts of Programming, beginner level C.&lt;br&gt;
+Mode:	Online from 25th June, 2023, 2:00 PM (25-30 hours in total)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opensource | Xuan Wang</title>
+    <link>https://xuanwang.github.io/tag/opensource.html</link>
+      <atom:link href="https://xuanwang.github.io/tag/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <description>Opensource</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png</url>
+      <title>Opensource</title>
+      <link>https://xuanwang.github.io/tag/opensource.html</link>
+    </image>
+    
+    <item>
+      <title>Grid-World package for RL-testing Released</title>
+      <link>https://xuanwang.github.io/news/gridworld.html</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/news/gridworld.html</guid>
+      <description>&lt;p&gt;The Grid-World package allows you to get your own table-based Reinforcement Learning-test environment with minimal line of code. You can interact with the environment and observe the emergent policy after the algorithm converges. The package provides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;easy way to define an environment (see test.py)&lt;/li&gt;
+&lt;li&gt;similar interface as openai-gym&lt;/li&gt;
+&lt;li&gt;compitable with all model-free table-based RL-algorithm&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The version 1.0.2 of VocalAnnot has been Released</title>
+      <link>https://xuanwang.github.io/news/vocalannot-v1.0.2.html</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/news/vocalannot-v1.0.2.html</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://github.com/prasenjit52282/SimpleSpeech2TextApp/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;version 1.0.2&lt;/a&gt; of VocalAnnot has just been published, and offers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a new structure with a fixed light theme&lt;/li&gt;
+&lt;li&gt;login and logout feature in case of multiple users&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
