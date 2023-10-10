@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Xuan Wang</title>
-    <link>https://xuanwang.github.io/tags.html</link>
+    <link>https://xuanwang.github.io/tags/</link>
       <atom:link href="https://xuanwang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png</url>
       <title>Tags</title>
-      <link>https://xuanwang.github.io/tags.html</link>
+      <link>https://xuanwang.github.io/tags/</link>
     </image>
     
   </channel>
