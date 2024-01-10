@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+  <meta name="description" content="Processing in-memory (PIM) is promising to accel- erate neural networks (NNs) because it minimizes data movement and provides large computational parallelism. Similar to machine learning accelerators, application mapping, which determines the operation scheduling and data layout, plays a critical role in the NN acceleration on PIM. The mapping optimization of previous NN accelerators focused on optimizing the latency of sequential execution. However, PIM accelerators feature a distinct design space of application mapping from conventional NN accelerators, due to the spatial execution of NN layers across different memory locations. This enables opportunities for overlapping execution of consecutive NN layers to improve the latency, where the succeeding layer can start execution before the preceding layer fully completes the computation. In this paper, we propose Fast-OverlaPIM framework that incorporates the computational overlapping optimization into the DNN mapping exploration pro- cess on PIM architectures. Fast-OverlaPIM includes analytical algorithms for fast and accurate overlap analysis. Furthermore, it proposes a novel mapping search strategy and a transformation mechanism to enable efficient design space exploration on the overlap-based mapping for the whole network. Our framework demonstrates a significant improvement in runtime performance from 3.4× to 323.1× compared to the previous state-of-the- art overlap-based framework. Our experiments show that Fast- OverlaPIM can efficiently produce mappings that are 4.6× to 18.1× faster than the state-of-the-art mapping optimization framework under the same architecture constraints." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://xuanwang.github.io/talk/example-talk.html" />
+  <link rel="alternate" hreflang="en-us" href="https://xuanwang.github.io/publication/2024-tcad.html" />
 
   
   
@@ -322,7 +322,7 @@
   <link rel="icon" type="image/png" href="../media/icon_hud4c78973bcc5d92ed5468e5e1cbd3b4d_34642_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="../media/icon_hud4c78973bcc5d92ed5468e5e1cbd3b4d_34642_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://xuanwang.github.io/talk/example-talk.html" />
+  <link rel="canonical" href="https://xuanwang.github.io/publication/2024-tcad.html" />
 
   
   
@@ -333,6 +333,7 @@
   
   
     
+    
   
   
 
@@ -341,32 +342,35 @@
     
     
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
     <meta property="twitter:site" content="@prasenjit52282" />
     <meta property="twitter:creator" content="@prasenjit52282" />
   
   <meta property="og:site_name" content="Xuan Wang" />
-  <meta property="og:url" content="https://xuanwang.github.io/talk/example-talk.html" />
-  <meta property="og:title" content="Example Talk | Xuan Wang" />
-  <meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://xuanwang.github.io/talk/example-talk/featured.jpg" />
-    <meta property="twitter:image" content="https://xuanwang.github.io/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://xuanwang.github.io/publication/2024-tcad.html" />
+  <meta property="og:title" content="Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration | Xuan Wang" />
+  <meta property="og:description" content="Processing in-memory (PIM) is promising to accel- erate neural networks (NNs) because it minimizes data movement and provides large computational parallelism. Similar to machine learning accelerators, application mapping, which determines the operation scheduling and data layout, plays a critical role in the NN acceleration on PIM. The mapping optimization of previous NN accelerators focused on optimizing the latency of sequential execution. However, PIM accelerators feature a distinct design space of application mapping from conventional NN accelerators, due to the spatial execution of NN layers across different memory locations. This enables opportunities for overlapping execution of consecutive NN layers to improve the latency, where the succeeding layer can start execution before the preceding layer fully completes the computation. In this paper, we propose Fast-OverlaPIM framework that incorporates the computational overlapping optimization into the DNN mapping exploration pro- cess on PIM architectures. Fast-OverlaPIM includes analytical algorithms for fast and accurate overlap analysis. Furthermore, it proposes a novel mapping search strategy and a transformation mechanism to enable efficient design space exploration on the overlap-based mapping for the whole network. Our framework demonstrates a significant improvement in runtime performance from 3.4× to 323.1× compared to the previous state-of-the- art overlap-based framework. Our experiments show that Fast- OverlaPIM can efficiently produce mappings that are 4.6× to 18.1× faster than the state-of-the-art mapping optimization framework under the same architecture constraints." /><meta property="og:image" content="https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2017-01-01T00:00:00&#43;00:00"
+        content="1969-12-31T16:33:44-08:00"
       />
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1969-12-31T16:33:44-08:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -374,43 +378,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://xuanwang.github.io/talk/example-talk.html"
+    "@id": "https://xuanwang.github.io/publication/2024-tcad.html"
   },
-  "name": "Example Talk",
+  "headline": "Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration",
   
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
+  "datePublished": "1969-12-31T16:33:44-08:00",
+  "dateModified": "1969-12-31T16:33:44-08:00",
   
-  
-  "image": [
-    "https://xuanwang.github.io/talk/example-talk/featured.jpg"
-  ],
-  
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Xuan Wang"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xuan Wang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "Processing in-memory (PIM) is promising to accel- erate neural networks (NNs) because it minimizes data movement and provides large computational parallelism. Similar to machine learning accelerators, application mapping, which determines the operation scheduling and data layout, plays a critical role in the NN acceleration on PIM. The mapping optimization of previous NN accelerators focused on optimizing the latency of sequential execution. However, PIM accelerators feature a distinct design space of application mapping from conventional NN accelerators, due to the spatial execution of NN layers across different memory locations. This enables opportunities for overlapping execution of consecutive NN layers to improve the latency, where the succeeding layer can start execution before the preceding layer fully completes the computation. In this paper, we propose Fast-OverlaPIM framework that incorporates the computational overlapping optimization into the DNN mapping exploration pro- cess on PIM architectures. Fast-OverlaPIM includes analytical algorithms for fast and accurate overlap analysis. Furthermore, it proposes a novel mapping search strategy and a transformation mechanism to enable efficient design space exploration on the overlap-based mapping for the whole network. Our framework demonstrates a significant improvement in runtime performance from 3.4× to 323.1× compared to the previous state-of-the- art overlap-based framework. Our experiments show that Fast- OverlaPIM can efficiently produce mappings that are 4.6× to 18.1× faster than the state-of-the-art mapping optimization framework under the same architecture constraints."
 }
 </script>
 
@@ -418,8 +409,10 @@
 
   
 
+  
 
-  <title>Example Talk | Xuan Wang</title>
+
+  <title>Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration | Xuan Wang</title>
 
   
   
@@ -439,7 +432,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="19d94ca4c7aff9e4d8ae818d71b66aa5" >
 
   
   
@@ -724,7 +717,16 @@
     
     
 
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -739,35 +741,53 @@
 
 
 
-
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
-  <h1 class="page-title">Example Talk</h1>
+  <h1>Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration</h1>
 
-  
-  
-  
   
 
   
+    
+    
 
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Xuan Wang</span>, <span >
+      Minxuan Zhou</span>, <span >
+      Tajana Rosing</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date"> 
+    
+    
+      
+    
+  
+  </span>
+  
+  <span class="article-date">
+    
+    
+      
+    
+  </span>
   
 
   
@@ -784,7 +804,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -810,14 +830,10 @@
 
 
 
-  
-    
-  
 
 
 
 
-  
 
 
 
@@ -833,22 +849,18 @@
   
   
     
+    
+      
+    
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+  <a class="btn btn-outline-primary btn-page-header" href="../" >
+    <i class="fas fa-scroll mr-1"></i>Link</a>
 
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="../talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp" width="720" height="514" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -856,33 +868,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Processing in-memory (PIM) is promising to accel- erate neural networks (NNs) because it minimizes data movement and provides large computational parallelism. Similar to machine learning accelerators, application mapping, which determines the operation scheduling and data layout, plays a critical role in the NN acceleration on PIM. The mapping optimization of previous NN accelerators focused on optimizing the latency of sequential execution. However, PIM accelerators feature a distinct design space of application mapping from conventional NN accelerators, due to the spatial execution of NN layers across different memory locations. This enables opportunities for overlapping execution of consecutive NN layers to improve the latency, where the succeeding layer can start execution before the preceding layer fully completes the computation. In this paper, we propose Fast-OverlaPIM framework that incorporates the computational overlapping optimization into the DNN mapping exploration pro- cess on PIM architectures. Fast-OverlaPIM includes analytical algorithms for fast and accurate overlap analysis. Furthermore, it proposes a novel mapping search strategy and a transformation mechanism to enable efficient design space exploration on the overlap-based mapping for the whole network. Our framework demonstrates a significant improvement in runtime performance from 3.4× to 323.1× compared to the previous state-of-the- art overlap-based framework. Our experiments show that Fast- OverlaPIM can efficiently produce mappings that are 4.6× to 18.1× faster than the state-of-the-art mapping optimization framework under the same architecture constraints.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="../publication.html#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -897,12 +896,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">(in submission)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -912,21 +907,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
-
-    </div>
+    <div class="article-style"></div>
 
     
 <script src="../js/jquery-3.6.2.min.js"></script>
@@ -952,64 +933,6 @@ $(document).ready(function () {
 
 
 
-<div class="share-box">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://xuanwang.github.io/talk/example-talk.html&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://xuanwang.github.io/talk/example-talk.html&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://xuanwang.github.io/talk/example-talk.html" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://xuanwang.github.io/talk/example-talk.html&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-tumblr" aria-label="tumblr">
-          <i class="fab fa-tumblr"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
 
 
 
@@ -1022,102 +945,24 @@ $(document).ready(function () {
 
   
   
+    
+
 
 
 
   
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://xuanwang.github.io/"><img class="avatar mr-3 avatar-circle" src="../authors/admin/avatar_hu3e51640e3cc9b992e7830b8c75796326_5351143_270x270_fill_q75_lanczos_center.jpg" alt="Xuan Wang"></a>
     
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://xuanwang.github.io/">Xuan Wang</a></h5>
-      <h6 class="card-subtitle">Ph.D. Student</h6>
-      <p class="card-text">I am a doctoral student in computer science, currently at the UCSD.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="../#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=2fz_Xu8AAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="fas fa-graduation-cap"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/Xuan-Wang-Summer" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/xuan-wang-summer/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
 
 
+
+  
+    
+
+
+
+
+  
 
 
 

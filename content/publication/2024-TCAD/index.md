@@ -1,7 +1,7 @@
 ---
 title: "Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration"
-date: In submission
-publishDate: In submission
+date: 2024
+publishDate: 2024
 authors: ["Xuan Wang", "Minxuan Zhou", "Tajana Rosing"]
 publication_types: ["1"]
 abstract: "Processing in-memory (PIM) is promising to accel-
@@ -32,7 +32,7 @@ OverlaPIM can efficiently produce mappings that are 4.6×
 to 18.1× faster than the state-of-the-art mapping optimization
 framework under the same architecture constraints."
 featured: true
-publication: "(in submission)."
+publication: "(in submission)"
 links:
   - icon_pack: fas
     icon: scroll
