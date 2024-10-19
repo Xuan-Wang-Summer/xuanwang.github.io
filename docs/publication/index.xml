@@ -5,7 +5,7 @@
     <link>https://xuanwang.github.io/publication.html</link>
       <atom:link href="https://xuanwang.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xuanwang.github.io/media/logo_hub60439df36b00f9068fb47d443dbe678_12902_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>OverlaPIM: Overlap Optimization for Processing In-Memory Neural Network Acceleration</title>
-      <link>https://xuanwang.github.io/publication/2023-date.html</link>
-      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://xuanwang.github.io/publication/2023-date.html</guid>
+      <title>UFC: A Unified Accelerator for Fully Homomorphic Encryption</title>
+      <link>https://xuanwang.github.io/publication/2024-micro.html</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/publication/2024-micro.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fast-OverlaPIM: A Fast Overlap-driven Mapping Framework for Processing In-Memory Neural Network Acceleration</title>
       <link>https://xuanwang.github.io/publication/2024-tcad.html</link>
-      <pubDate>Wed, 31 Dec 1969 16:33:44 -0800</pubDate>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://xuanwang.github.io/publication/2024-tcad.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OverlaPIM: Overlap Optimization for Processing In-Memory Neural Network Acceleration</title>
+      <link>https://xuanwang.github.io/publication/2023-date.html</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://xuanwang.github.io/publication/2023-date.html</guid>
       <description></description>
     </item>
     

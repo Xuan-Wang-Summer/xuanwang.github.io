@@ -28,9 +28,10 @@ bio: I am a doctoral student in computer science, currently at the UCSD.
 
 # Interests to show in About widget
 interests:
-  - Domain-Specific Acceleration
   - Computer Architecture
+  - Domain-Specific Acceleration
   - Fully Homomorphic Encryption
+  - Algorithm-Architecture Co-Design
 
 # Education to show in About widget
 education:
@@ -44,6 +45,11 @@ education:
     - course: B.S. in Applied Mathematics
       institution: University of California San Diego
       year: 2019 - 2023
+
+# Work Experience to show in About widget
+experience:
+  courses:
+    - courses:
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -84,6 +90,6 @@ highlight_name: true
 
 I am currently a Ph.D. Student in the Department of Computer Science and Engineering at University of California, San Diego (UCSD). I am advised by Prof. [Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) in the System Energy Efficiency Lab ([SEELab](http://varys.ucsd.edu/)). 
 <br/><br/>
-I am mainly interested in domain-specific acceleration and computer architecture. My research interests also includes fully homomorphic encryption and bioinformatics.
+I am mainly interested in computer architecture, domain-specific acceleration and algorithm-architecture co-design. My current research aligns on architectural acceleration and algorithm optimization for fully homomorphic encryption (FHE) and machine learning applications.
 <br/><br/>
 Prior to the doctorate program, I received my B.S. degree with double majors in Computer Engineering and Applied Mathematics from UCSD at 2023.
